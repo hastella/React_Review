@@ -4,10 +4,11 @@ import "./index.css";
 import CounterPage from "./pages/CounterPage";
 import ProductsPage from "./pages/ProductsPage";
 import AppMentors from "./pages/AppMentors";
+import AppForm from "./AppForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppMentors />
+    <AppForm />
   </React.StrictMode>
 );
